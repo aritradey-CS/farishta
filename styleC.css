@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .title {
+    margin: 0;
+    padding: 0px;
+    border: 5px darkslategrey solid;
+    background-color: slategray;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 405%;
+    /* text-align:center; */
+    height: fit-content;
+    font-family: "EB Garamond", serif;
+  }
+  .nav {
+    border: 2px darkslategray solid;
+    height: 50px;
+    color: white;
+    margin: 0px;
+    /* padding: 0; */
+    background-color: black;
+  
+    text-align: center;
+  }
+  .nav ul li {
+    display: inline;
+    word-spacing: 1ch;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: "EB Garamond", serif;
+    text-align: center;
+  
+  }
+  .nav ul li button {
+    width: 10%;
+    background-color: skyblue;
+    padding: 6px;
+    border: 2px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .flex-container{
+      display: flex;
+  }
+  .flex-child-left{
+      flex: 1;
+  }
+  .flex-child-left:first-child{
+      margin-right: 0;
+      border: 1px black solid;
+      padding: 1px 1pt;
+      width: 50%;
+      height: 71vh;
+      display: inline-block;
+      background-color: blueviolet;
+  }
+  .flex-child-right{
+      margin left: 100;
+      border: 1px black solid;
+      padding: 1px 1pt;
+      display: inherit;
+      background-color: yellowgreen;
+      width: 50%;
+      height: 71vh;
+  }
+  .footer{
+    margin: 0;
+    border: 0px black solid;
+    padding: 0;
+    background-color: black;
+    height:46px;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+    
+  }
+  .footer a{
+    text-decoration: none;
+  }
+  b{
+    position: relative;
+    left: 250px;
+  }
+  .button1{
+    height: 30px;
+    width: 80px ;
+    border-style:none;
+    background-color: darkblue; color:white; border-radius: 10px;
+    position: relative;
+    top: -1vh;
+    left: 35vw;
+  }
+  
+  .button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .register{
+  position: relative;
+  top: 2px;
+  left: 20%;
+  font-size:xx-large;
+  }
+  
+  
+  .flex-child-left{
+  margin: 0;
+  border: none;
+  padding: 0;
+   }
+   .video{
+    height: 83vh;
+  width: 50vw;
+  position: relative;
+  top: -6vh;
+  left: -1vw;
+  
+   }
+   label{
+    position: relative;
+    top: 5vh;
+    left: -5vw;
+   }
+   input{
+    position: relative;
+    top: 5vh;
+   }
+   span{
+    position: relative;
+    top: 5vh;
+    left: -1vw;
+   }

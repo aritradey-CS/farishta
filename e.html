@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayle's Snaks</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="shortcut icon" href="./android-chrome-192x192.png" type="image/x-icon">
+    <style>
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  position:sticky;
+  top: 0px;
+  z-index: 10;
+  /* left: 21vw;
+  color: aliceblue; */
+  background-color: lightskyblue;
+  color: brown;
+  height: 11vh;
+  width: 100vw;
+  /* border: 1px white solid; */
+}
+.title {
+  position: relative;
+  top: -11vh;
+  font-size: 5vmax;
+  text-align: center;
+}
+ul li {
+  top: -6.5vh;
+  left: -4vw;
+  height: 38px;
+  padding: 60px;
+  /* color: aliceblue; */
+  display: grid;
+  grid-gap: 35px;
+  font-size: xx-large;
+  position: relative;
+}
+body {
+  background-color:yellowgreen;
+}
+.container {
+  display: flex;
+}
+.left {
+  flex: 1;
+  position:sticky;
+  z-index: 1;
+  top: 0vh;
+  height: 82vh;
+  width: 16vw;
+  background-color: lightslategrey;
+  margin: 0px;
+  padding: 0px;
+}
+/* .container {
+  display: flex;
+} */
+nav {
+  display: grid;
+  grid-gap: 10px;
+  left: 21vw;
+  /* color: aliceblue; */
+
+  height: 8vh;
+  width: 79vw;
+}
+ul {
+  height: 10vh;
+  width: 16vw;
+  left: 30px;
+}
+.button1 {
+  background-color: aqua;
+  margin: 0px;
+  top: 95px;
+  left: 7px;
+  height: 80px;
+  width: 205px;
+  position: relative;
+}
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(2, 2, 2, 2), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.button1 a {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+  height: 7vh;
+  display: grid;
+  grid-template-columns: 75vw 2px;
+  align-items: center;
+}
+.fa {
+  /* position: relative; */
+  /* top: 10vh; */
+  /* text-size-adjust: 10; */
+  font-size: x-large;
+}
+.fb {
+  /* position: relative; */
+  /* top: 10vh; */
+  /* text-size-adjust: 10; */
+  font-size: x-large;
+}
+img {
+  border-radius: 20px 30pt 20px 30pt;
+  position: relative;
+  top: 0.5vh;
+  left: 6vw;
+  height: 65px;
+  width: 50pt;
+}
+.right {
+  
+
+  margin-left: 0vw;
+  /* border: 1px black solid;  */
+  padding: 2px 2pt;
+  display: inline;
+  background-color: yellowgreen;
+  color: black;
+  width: 90vw;
+  height: 81vh;
+}
+.button2 {
+  height: 40px;
+  width: 100pt;
+  border-radius: 2px 15pt 5px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -11vh;
+  left: 71.5vw;
+  /* background-color: brown; */
+}
+.content {
+  position: relative;
+  top: -0.5vh;
+  left: -0vw;
+}
+.B {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  flex: 2;
+  position: relative;
+  top: -0.3vh;
+  right: -82.3%;
+  height: 82vh;
+  width: 15vw;
+  background-color: lightslategrey;
+}
+.E {
+  height: 5vh;
+  width: 12vw;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  left: 2vw;
+  color: black;
+}
+.P {
+  height: 5vh;
+  width: 12vw;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  left: 2vw;
+  color: black;
+}
+.R {
+  height: 5vh;
+  width: 8vw;
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  left: 4.5vw;
+  background-color: azure;
+}
+.A {
+  flex: 3;
+  position: sticky;
+  z-index: 1;
+  top: -82.5vh;
+  left: -0.5vw;
+  height: 82.5vh;
+  width: 68.5vw;
+  background-color: black;
+}
+.video {
+  height: 250px;
+  width: 250pt;
+}
+
+    </style>
+</head>
+<body>
+   
+    <header>
+        <img src="./logo.png" alt="">
+        <div class="title">Mickel and Mickelson</div> 
+        
+    </header>
+</header> 
+
+<div class="container">
+    <div class="left">
+        
+        <ul>
+            <button type="button" class="button1">
+                <li>
+                    <a href="./error.html">Home</a>
+                    </li>
+                </button>
+                <button type="button" class="button1"><li>
+                    <a href="./error.html">Employee</a>
+                </li></button>
+                <button type="button" class="button1"><li><a href="./error.html">Notice</a></li></button>
+                <button type="button" class="button1"><li><a href="./error.html">Contact</a></li></button>
+                
+                
+            
+        </nav>
+    </div>
+    <div class="right">
+        <!-- <div class="T">
+            <ul>
+                <li>
+                    <button class="T1" type="button">Bike</button>
+                </li>
+                <li>
+                    <button class="T1" type="button">E-cycle</button>
+                    <li>
+                        <button class="T1" type="button">Swit Desire</button>
+                    </li>
+                </li>
+                <li>
+                    <button class="T1" type="button">Nexon</button>
+                </li>
+                <li>
+                    <button class="T1" type="button">Innova</button>
+                </li>
+                <li>
+                    <button class="T1" type="button">Small-Truck</button>
+                </li>
+                <li>
+                    <button class="T1" type="button">Big-Truck</button>
+                </li>
+            </ul>
+        </div> -->
+        <div class="B">
+<p>
+    <input class="E" type="text" value="email" name="email" id="email">
+    <label  for="pass"> <input class="P" type="password" value="password" name="password" id="pass"> <br>
+        <button class="R"> <a href="./index.html"> Register</a>
+</p>
+        </div>
+        
+        
+        
+        
+        
+        <!-- <div class="A">
+<video src="./pexels-cottonbro-5532770.mp4" height="250" width="250"></video>
+        </div> -->
+        
+        <button type="button" class="button2">
+            Chat with Asistance
+        </button>
+        <!-- <div class="content">
+            <iframe src="https://www.gari.info/index.cfm" frameborder="0" height="536" width="1140"></iframe>
+        </div> -->
+    </div>
+</div>
+<footer>
+    <div class="fa">
+        &copy;Aritra Dey
+    </div>
+<div class="fb">
+    Contact:aritra1999.dey@gmail
+</div>
+   </footer>
+</body>
+</html>
